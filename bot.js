@@ -8,12 +8,7 @@ client.on('ready', () => {
  
 });
  
-client.on('guildMemberAdd' ,member => {
-  if(member.guild.id !== '462347265747451914') return;
-  setTimeout(function(){
-  member.guild.channels.find(r => r.id === '492406462476451840').send('**Welcome to Bubbles Tumblr**');
-},3000);
-});
+
 
 
  var adminprefix = "-";
